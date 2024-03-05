@@ -9,9 +9,10 @@ header {
 }
 
 body {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Manrope;
 }
 
 nav {
@@ -67,4 +68,26 @@ ul {
 .google-play-badge {
     width: 135px;
     height: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    gap: 32px;
+    padding: px 11%;
+}
+
+.first-text {
+    color: var(--Text-Gray-900, #18191F);
+    font-feature-settings: 'liga' off;
+
+    /* Heading / H1 */
+    font-family: Manrope;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 98px; /* 136.111% */
+
+    width: 730px;
 }
