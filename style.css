@@ -9,20 +9,40 @@ body {
 
 header {
     display: flex;
-    padding: 0% 0%;
-    justify-content: start;
-    /*align-items: center;*/
-    gap: 258px;
 }
 
 nav {
     display: flex;
-    gap: 17.4%;
+    gap: 28%;
+    align-items: center;
+    padding-top: 10px;
+    
+    padding-left: 11.2%;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 28px;
+}
+
+.logo-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9.2px;
+}
+
+.landify-img {
+    width: 67.681px;
+    height: 18.49px;
 }
 
 ul {
     display: flex;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: flex-start;
     list-style-type: none;
     gap: 32px;
 
@@ -30,26 +50,6 @@ ul {
     font-style: normal;
     font-weight: 700;
     line-height: 142.857%;
-}
-
-.left-nav {
-    display: flex;
-    padding: 16px 165px;
-    justify-content: start;
-    align-items: center;
-    /*gap: 1%;*/
-
-    width: 38%;
-    height: 28px;
-}
-
-.logo {
-    margin-right: 9.2px;
-}
-
-.landify {
-    width: 67.681px;
-    height: 18.49px;
 }
 
 .chevron-down {
@@ -60,9 +60,9 @@ ul {
 
 .right-nav {
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
     gap: 12px;
-    height: 28px;
+    height: 40px;
 }
 
 .google-play-badge {
@@ -70,24 +70,28 @@ ul {
     height: 40px;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+
+}
+
 .content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;    
     gap: 32px;
-    padding: px 11%;
 }
 
-.first-text {
+h1 {
     color: var(--Text-Gray-900, #18191F);
     font-feature-settings: 'liga' off;
 
-    /* Heading / H1 */
     font-family: Manrope;
     font-size: 72px;
     font-style: normal;
     font-weight: 800;
-    line-height: 98px; /* 136.111% */
+    line-height: 136.111%; 
 
-    width: 730px;
+    /*width: 730px;*/
 }
