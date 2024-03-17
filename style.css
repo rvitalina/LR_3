@@ -76,7 +76,7 @@ ul {
 
 main {
     width: 100%;
-    height: 93.65%;
+    height: 93.293%;
 }
 
 .background-section {
@@ -599,4 +599,156 @@ line-height: 177.778%;
 .single-feature-section-2 img {
     width: 100%;
     height: 400px;
+}
+
+.project-management-section {
+    width: 1424px;
+    height: 491px;
+    background: #2EC5CE;
+
+    overflow: hidden;
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 74px; */
+}
+
+.pm-message {
+    width: 540px;
+    height: 356px;
+    position: relative;
+    left: 157px;
+    top: 68px;
+    bottom: 191px;
+
+    display: grid;
+    grid-template-rows: 232px 76px;
+    justify-items: start;
+    align-items: center;
+    gap: 48px;
+
+}
+
+.message-title-and-description {
+    width: 540px;
+    height: 232px;
+
+    display: grid;
+    grid-template-rows: 128px 96px;
+    justify-items: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.message-title-and-description h2 {
+    color: #18191F;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 133.333%;
+
+    margin: 0;
+}
+
+.message-title-and-description p {
+    color: #18191F;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 177.778%;
+
+    margin: 0;
+}
+
+.message-links {
+    width: 282px;
+    height: 76px;
+
+    display: grid;
+    grid-template-rows: 28px 40px;
+    justify-items: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.message-links p {
+    color: #18191F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155.556%;
+
+    margin: 0;
+}
+
+.message-links div {
+    width: 282px;
+    height: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: start;
+    align-items: center;
+    gap: 7px;
+}
+
+.phone-mockup-1 {
+    width: 232px;
+    height: 464px;
+    position: relative;
+    bottom: 449px;
+    margin-left: 771px;
+    margin-right: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-2 {
+    position: absolute;
+    width: 202.326px;
+    height: 438.102px;
+    margin-top: 14px;
+}
+
+.iphone-frame {
+    position: absolute;
+    width: 232px;
+    height: 464px;
+}
+
+.phone-mockup-2 {
+    position: relative;
+    width: 232px;
+    height: 464px;
+    bottom: 732px;
+    margin-left: 1035px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+footer {
+    width: 1110px;
+    height: 168px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 56px 157px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 475px;
+
+    background: #0B0D17;
+}
+
+.left-section {
+    width: 475px;
+    height: 168px;
+}
+
+.right-section {
+    width: 160px;
+    height: 140px;
 }
