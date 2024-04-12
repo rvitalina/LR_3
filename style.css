@@ -8,15 +8,19 @@ body {
 }
 
 header {
-    height: 50px;
+    height: auto;
+    width: 100%;
 }
 
 nav {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     gap: 258px;
     align-items: center;
     padding-top: 10px;
     width: 1110px;
+    height: auto;
 
     padding-left: 165px;
     padding-right: 165px;
@@ -29,7 +33,7 @@ nav {
     gap: 32px;
 
     height: 28px;
-    width: 570px;
+    max-width: 570px;
 }
 
 .logo-images {
@@ -98,14 +102,13 @@ main {
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    
     gap: 10%; 
 }
 
 h1 {
     color: #18191F;
 
-    font-size: 72px;           /* ?? */
+    font-size: 72px;          
     font-style: normal;
     font-weight: 800;
     line-height: 136.111%; 
@@ -147,7 +150,7 @@ h1 {
     width: 350px;
     height: 640px;
     padding-top: 110px;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -163,7 +166,7 @@ h1 {
 }
 
 .logo-clouds-section {
-    width: 1110px;
+    max-width: 1110px;
     height: 110px;
     padding: 16px 165px;
     gap: 24px;
@@ -190,8 +193,8 @@ h1 {
 }
 
 .features-section {
-    width: 1094px;
-    height: 544px;
+    max-width: 1094px;
+    min-height: 544px;
     padding: 64px 165px;
 
     display: flex;
@@ -231,8 +234,8 @@ h1 {
 }
 
 .features-list {
-    width: 1110px;
-    height: 360px;
+    max-width: 1110px;
+    min-height: 360px;
 
     display: flex;
     flex-direction: column;
@@ -242,10 +245,11 @@ h1 {
 
 .features-row {
     width: 1110px;
-    height: 148px;
+    min-height: 148px;
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: 30px;
 }
@@ -266,8 +270,8 @@ h1 {
 }
 
 .element-content {
-    width: 350px;
-    height: 92px;
+    max-width: 350px;
+    max-height: 92px;
 
     display: flex;
     flex-direction: column;
@@ -303,13 +307,13 @@ h1 {
 }
 
 .testimonial-section {
-    width: 1440px;
-    height: 896px;
+    max-width: 1440px;
+    max-height: 896px;
     background: #D5FAFC;
 }
 
 .testimonial-section-content {
-    width: 920px;
+    max-width: 920px;
     height: 696px;
     padding: 120px 260px 80px 253px;
     display: flex;
@@ -319,7 +323,7 @@ h1 {
 
 .left-column {
     width: 50%;
-    height: 630px;
+    max-height: 630px;
 
     display: flex;
     flex-direction: column;
@@ -346,7 +350,7 @@ h1 {
 .test-title-and-description p {
     color: #18191F;
     
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 177.778%;
 
@@ -354,8 +358,8 @@ h1 {
 }
 
 .first-feedback {
-    width: 286px;
-    height: 375px;
+    max-width: 286px;
+    max-height: 375px;
     padding: 32px;
     margin-left: 90px;
 
@@ -432,7 +436,7 @@ h1 {
 
 .right-column {
     width: 50%;
-    height: 647px;
+    max-height: 647px;
 
     display: flex;
     flex-direction: column;
@@ -441,8 +445,8 @@ h1 {
 }
 
 .second-feedback {
-    width: 381px;
-    height: 276px;
+    max-width: 381px;
+    max-height: 276px;
     padding: 32px;
 
     display: flex;
@@ -461,8 +465,8 @@ h1 {
 }
 
 .third-feedback {
-    width: 286px;
-    height: 212px;
+    max-width: 286px;
+    max-height: 212px;
     padding: 32px;
 
     display: flex;
@@ -486,14 +490,14 @@ h1 {
     align-items: flex-start;
     gap: 30px;
 
-    width: 1110px;
-    height: 172px;
+    max-width: 1110px;
+    min-height: 172px;
     padding: 80px 156px;
 }
 
 .stats-title-and-description {
     display: flex;
-    width: 540px;
+    max-width: 540px;
     flex-direction: column;
     align-items: flex-start;
     gap: 11px;
@@ -504,7 +508,7 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     line-height: 133.333%;
-
+    
     margin: 0;
 }
 
@@ -523,7 +527,7 @@ h1 {
     align-items: center;
     gap: 40px;
 
-    width: 540px;
+    max-width: 540px;
     height: 172px;
 }
 
@@ -533,7 +537,7 @@ h1 {
     flex-direction: row;
     gap: 30px;
 
-    width: 540px;
+    max-width: 540px;
     height: 66px;
 }
 
@@ -543,7 +547,7 @@ h1 {
     align-items: center;
     gap: 16px;
 
-    width: 255px;
+    max-width: 255px;
     height: 100%;
 }
 
@@ -577,8 +581,8 @@ h1 {
 }
 
 .single-feature-section {
-    width: 1110px;
-    height: 540px;
+    max-width: 1110px;
+    max-height: 540px;
     padding: 64px 158px;
 
     display: grid;
@@ -589,8 +593,8 @@ h1 {
 }
 
 .left-col {
-    width: 540px;
-    height: 540px;
+    max-width: 540px;
+    max-height: 540px;
     border-radius: 8px;
     background: #F1E4FF;
     display: grid;
@@ -628,8 +632,8 @@ h1 {
     grid-template-rows: 54px 160px 30px;
     gap: 32px;
 
-    width: 444px;
-    height: 308px;
+    min-width: 444px;
+    max-height: 308px;
     padding: 0 48px;
 }
 
@@ -684,7 +688,7 @@ h1 {
 }
 
 .single-feature-section-2 {
-    width: 1110px;
+    max-width: 1110px;
     height: 556px;
     padding: 64px 158px;
 
@@ -697,7 +701,7 @@ h1 {
 
 .details {
     width: 1110px;
-    height: 108px;
+    min-height: 108px;
 
     display: grid;
     grid-template-columns: repeat(2, 540px);
@@ -716,7 +720,7 @@ h1 {
 }
 
 .details p {
-    width: 540px;
+    max-width: 540px;
     height: 96px;
     margin: 0;
 
@@ -732,7 +736,7 @@ h1 {
 }
 
 .project-management-section {
-    width: 1424px;
+    max-width: 1424px;
     height: 491px;
     background: #2EC5CE;
 
@@ -752,12 +756,11 @@ h1 {
     justify-items: start;
     align-items: center;
     gap: 48px;
-
 }
 
 .message-title-and-description {
-    width: 540px;
-    height: 232px;
+    max-width: 540px;
+    max-height: 232px;
 
     display: grid;
     grid-template-rows: 128px 96px;
@@ -856,8 +859,8 @@ h1 {
 }
 
 footer {
-    width: 1110px;
-    height: 168px;
+    max-width: 1110px;
+    min-height: 168px;
     padding: 56px 157px;
 
     background: #0B0D17;
@@ -869,6 +872,7 @@ footer {
     height: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
     justify-content: center;
     align-items: flex-start;
@@ -931,7 +935,7 @@ footer {
 }
 
 .right-section {
-    width: 160px;
+    max-width: 160px;
     height: 140px;
     display: flex;
     flex-direction: column;
