@@ -1,0 +1,328 @@
+@media screen and (max-width: 769px) {
+
+    .tablet-hide {
+        display: none;
+    }
+
+    body {
+        width: 768px;
+        height: fit-content;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    nav {
+        width: 768px;
+        padding: 5px 22px 5px 25px;
+        gap: 44px;
+    }
+    
+    .landify-img {
+        width: 51.567px;
+        height: 13.207px;
+    }
+
+    .landify-logo {
+        width: 21.333px;
+        height: 20px;
+    }
+
+    ul {
+        gap: 16px;
+    }
+
+    .right-nav {
+        width: 212px;
+        height: 28px;
+    }
+
+    .app-store-badge {
+        width: 100px;
+        height: 28px;
+    }
+
+    .google-play-badge {
+        width: 100px;
+        height: 28px;
+    }
+
+    .background-section {
+        height: 423px;
+    }
+
+    h1 {
+        font-size: 38px;    
+    }
+
+    .btn-get-started {
+        font-size: 12px;
+    }
+
+    .phone {
+        padding-top: 20px;
+        width: 170px;
+        height: 341px;
+        margin-left: 38px;
+    }
+
+    .iphone-img {
+        width: 170px;
+        height: 341px;
+    }
+
+    .screen-img {
+        width: 148.256px;
+        height: 321.967px;
+        margin-top: 10px;
+    }
+
+    .logo-clouds-section {
+        height: 47px;
+        padding: 14px 50px;
+    }
+
+    .logos {
+        width: 100%;
+        gap: 19px;
+        padding: 10px 0;
+    }
+
+    .logo-img {
+        transform: scale(0.7);
+    }
+
+    .features-section {
+        padding: 34px 50px;
+    }
+
+    .title-and-description {
+        width: 410px;
+    }
+
+    .features-heading {
+        font-size: 26px;
+    }
+
+    .features-description {
+        font-size: 14px;
+    }
+
+    .features-list {
+        width: 668px;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .features-row {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .row-element {
+        width: 324px;
+    }
+
+    .elem-img {
+        transform: scale(0.75);
+    }
+
+    .elem-headline {
+        font-size: 18px;
+    }
+
+    .elem-description {
+        font-size: 14px;
+    }
+
+    .testimonial-section-content {
+        padding: 50px 80px 33px 80px;
+        height: 550px;
+    }
+
+    .test-title-and-description h2 {
+        font-size: 30px;
+    }
+
+    .test-title-and-description p {
+        font-size: 14px;
+    }
+
+    .feedback-and-details {
+        gap: 12px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .position {
+        font-size: 12px;
+    }
+
+    .first-feedback {
+        margin-left: 30px;
+        padding: 16px;
+        gap: 16px;
+    }
+    
+    .company-logo-1 {
+        transform: scale(0.6);
+    }
+
+    .feedback {
+        font-size: 14px;
+    }
+
+    .right-column {
+        align-self: flex-start;
+        padding-top: 35px;
+    }
+
+    .second-feedback {
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .company-logo-2 {
+        transform: scale(0.7);
+    }
+
+    .third-feedback {
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .statistics-section {
+        flex-direction: column;
+        padding: 70px 130px;
+        justify-content: center;
+    }
+
+    .stats-title-and-description {
+        align-items: center;
+        align-self: center;
+    }
+
+    .stats-title {
+        text-align: center;
+        font-size: 26px
+    }
+
+    .stats-description {
+        font-size: 16px;
+    }
+
+    .stats-counts {
+        margin-left: 50px;
+        gap: 25px;
+    }
+
+    .stats-counts-row {
+        gap: 20px;
+    }
+
+    .stats-counts-element {
+        width: 220px;
+    }
+
+    .stats-elem-img {
+        transform: scale(0.8);
+    }
+
+    .stats-elem-number {
+        font-size: 22px;
+    }
+
+    .stats-elem-label {
+        font-size: 14px;
+    }
+
+
+    /* .left-col {
+        width: 200px;
+        height: 200px;
+    }
+
+    .left-col-screen-img {
+        transform: scale(0.6);
+    }
+
+    .left-col-iphone-img {
+        transform: scale(0.6);
+    } */
+
+
+    .single-feature-section {
+        gap: 0;
+        padding: 30px 120px;
+    }
+
+    .single-feature-section-2 {
+        padding: 50px;
+        grid-template-rows: auto;
+        width: 668px;
+        height: min-content;
+        gap: 32px
+    }
+
+    .details {
+        grid-template-columns: repeat(2, 319px);
+        width: auto;
+    }
+
+    .details h3 {
+        font-size: 30px;
+    }
+
+    .details p {
+        font-size: 14px;
+    }
+
+    .single-feature-section-2 img {
+        height: auto;
+    }
+
+    .project-management-section {
+        height: 410px;
+    }
+
+    .pm-message {
+        width: 400px;
+        gap: 30px;
+        left: 180px;
+        height: min-content;
+        grid-template-rows: auto;
+    }
+
+    .message-title-and-description {
+        grid-template-rows: auto;
+    }
+
+    .message-title-and-description h2 {
+        font-size: 30px;
+    }
+
+    .message-title-and-description p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 50px;
+
+    }
+
+    .footer-section {
+        justify-content: flex-start;
+        gap: 58px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    
+    .mobile-hide {
+        display: none;
+    }
+}
